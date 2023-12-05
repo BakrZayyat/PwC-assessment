@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 def generate_quiz(topic, num_questions):
     questions_and_options = []
